@@ -1,0 +1,178 @@
+
+
+body{
+    background-color: #EFE7E3;
+}
+
+.frame{
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: column;
+}
+    
+
+/*navigator*/
+    
+.navigator{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between ;
+}
+
+li{
+    display: inline;
+    align-self: center;
+    margin: 0;
+    margin-left: 15px;
+
+}
+
+ul{
+    margin: 0;
+}
+
+.site-name{
+    margin: 0;
+    font-family:'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #C2B4AB;
+}
+
+.nav-menu{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+    transition: 0.3s;
+}
+
+h1{
+    
+}
+
+.dashboard{
+    display: flex;
+    flex-direction: column;
+    margin: 30px;
+
+}
+
+h1{
+
+}
+
+.jp-comment{
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+}
+
+.sample{
+    background-color: pink;
+}
+
+.sample:hover{
+    background-color: transparent;
+    color: white;
+    -webkit-text-stroke: 1px black;
+    transition: none;
+    
+      }
+.highlight{
+    
+    color: white;
+    -webkit-text-stroke: 1px black;
+    
+}
+
+.type1:hover{
+    background-color: yellowgreen;
+}
+
+.type2:hover{
+    background-color: skyblue;
+}
+
+
+.english-comment{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    font-style: italic;
+    letter-spacing: -0.5px;
+    color: rgb(75, 75, 75);
+    margin-bottom: 50px;
+}
+
+/* recent works*/
+
+.recent-menu{
+    font-family: 'Montserrat',sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: #C2B4AB;
+
+    display: inline;
+    align-self: flex-end;
+    margin-top: 100px;
+}
+    
+/*fotter*/
+
+.work-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact{
+    font-family: 'Montseraat' ,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color:#7c6d64;
+    border-top:1px solid rgb(0, 0, 0) ;
+    margin-bottom: 150px;
+}
+
+.contact{
+    font-family: 'Montseraat' ,sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color:#7c6d64;
+    border-top:1px solid rgb(0, 0, 0) ;
+    margin-bottom: 10px;
+}
+
+.links>a{
+    font-family: 'Montseraat' ,sans-serif;
+    margin-left: 10px;
+}
+.links>a:hover{
+    font-family: 'Montseraat' ,sans-serif;
+    font-size: 30px;
+
+}
+
+.profile-section{
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 300;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: black;
+}
+
+.profile-capability{
+    font-family: 'Noto Serif JP', serif;
+    font-weight: 300;
+    font-size: 17px;
+    letter-spacing: 0px;
+    color: black;
+}
